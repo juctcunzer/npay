@@ -1,0 +1,30 @@
+{
+  "name": "ninjapay-lite",
+  "version": "1.0.0",
+  "description": "Lightweight security-focused payment processing with AES-CTR encryption",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --loader ts-node/esm src/test.ts"
+  },
+  "keywords": [
+    "encryption",
+    "security",
+    "payments",
+    "aes-ctr",
+    "wallet",
+    "tokens"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aes-js": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
+
